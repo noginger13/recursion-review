@@ -13,8 +13,6 @@ var getElementsByClassName = function(className
   //If match then push to result array
   //return array
 
-  console.log(document.getElementsByClassName(className));
-
   var targetElements = [];
 
   var helperFunction = function(children) {
